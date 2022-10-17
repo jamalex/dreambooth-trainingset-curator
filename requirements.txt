@@ -1,0 +1,33 @@
+diffusers
+fairscale==0.4.4
+fonts
+font-roboto
+gfpgan
+numpy
+omegaconf
+Pillow
+pytorch_lightning
+realesrgan
+scikit-image>=0.19
+transformers==4.19.2
+
+torch==1.10.0+cu113
+torchvision==0.11.1+cu113
+torchaudio==0.10.0+cu113
+-f https://download.pytorch.org/whl/cu113/torch_stable.html
+
+
+ftfy
+regex
+tqdm
+timm==0.4.12
+fairscale==0.4.4
+
+-e git+https://github.com/openai/CLIP.git@main#egg=clip
+
+ipython
+pandas
+
+deepface==0.0.75
+
+sklearn
